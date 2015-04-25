@@ -24,8 +24,8 @@ var Example = React.createClass({
       <div>
         <h1>Please drop your files</h1>
         <div style={style}>
-          <FileDragAndDrop onDrop={this.handleDrop} filesOnly={true}>
-
+          <FileDragAndDrop onDrop={this.handleDrop}>
+            Drop files here...
           </FileDragAndDrop>
         </div>
       </div>
