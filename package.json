@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fedosejev/react-file-drag-and-drop/issues"
   },
-  "homepage": "https://github.com/fedosejev/react-file-drag-and-drop"
+  "homepage": "https://github.com/fedosejev/react-file-drag-and-drop",
+  "dependencies": {
+    "react": "^0.13.2"
+  }
 }
