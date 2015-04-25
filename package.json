@@ -1,0 +1,19 @@
+{
+  "name": "react-file-drag-and-drop",
+  "version": "0.1.0",
+  "description": "A simple React component that handles file drag and drop.",
+  "main": "FileDragAndDrop.react.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedosejev/react-file-drag-and-drop.git"
+  },
+  "author": "Artemij Fedosejev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedosejev/react-file-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/fedosejev/react-file-drag-and-drop"
+}
