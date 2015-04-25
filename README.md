@@ -1,6 +1,10 @@
 # React File Drag and Drop Component
 A simple React component that handles file drag and drop.
 
+## Install
+
+`npm install --save react-file-drag-and-drop`
+
 ## How to use
 
 ```javascript
