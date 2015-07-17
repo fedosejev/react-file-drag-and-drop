@@ -1,14 +1,18 @@
 var React = require('react');
 
+var style = {
+  width: '100%',
+  height: '100%'
+};
+
 var FileDragAndDrop = React.createClass({
 
   propTypes: {
     onDragStart: React.PropTypes.func,
     onDrop: React.PropTypes.func.isRequired,
     onDragEnter: React.PropTypes.func,
-    onLeave: React.PropTypes.func,
+    onDragLeave: React.PropTypes.func,
     onDragOver: React.PropTypes.func,
-    onDrop: React.PropTypes.func,
     onDragEnd: React.PropTypes.func
   },
 
@@ -62,11 +66,6 @@ var FileDragAndDrop = React.createClass({
   },
 
   render: function () {
-    var style = {
-      width: '100%',
-      height: '100%'
-    }
-
     return (
       <div
         onDragStart={this.handleDragStart}
