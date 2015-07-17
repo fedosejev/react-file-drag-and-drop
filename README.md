@@ -10,6 +10,11 @@ A simple React component that handles file drag and drop.
 ```javascript
 var FileDragAndDrop = require('react-file-drag-and-drop');
 
+var style = {
+  width: '100px',
+  height: '100px'
+};
+
 var Example = React.createClass({
 
   handleDrop: function (dataTransfer) {
@@ -19,11 +24,6 @@ var Example = React.createClass({
   },
 
   render: function () {
-    var style = {
-      width: '100px',
-      height: '100px'
-    };
-
     return (
       <div>
         <h1>Please drop your files</h1>
