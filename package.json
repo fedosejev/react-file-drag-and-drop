@@ -1,6 +1,6 @@
 {
   "name": "react-file-drag-and-drop",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple React component that handles file drag and drop.",
   "main": "build/FileDragAndDrop.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/fedosejev/react-file-drag-and-drop",
   "dependencies": {
-    "react": "^0.13.2"
+    "react": "^15.0.1"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
