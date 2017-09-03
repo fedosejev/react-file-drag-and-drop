@@ -8,6 +8,19 @@ var style = {
 
 class FileDragAndDrop extends React.Component {
 
+
+  constructor(props) {
+    super(props)
+
+    this.handleDragStart = this.handleDragStart.bind(this)
+    this.handleDrag = this.handleDrag.bind(this)
+    this.handleDragEnter = this.handleDragEnter.bind(this)
+    this.handleDragLeave = this.handleDragLeave.bind(this)
+    this.handleDragOver = this.handleDragOver.bind(this)
+    this.handleDrop = this.handleDrop.bind(this)
+    this.handleDragEnd = this.handleDragEnd.bind(this)
+  }
+
   handleDragStart(event) {
     if (typeof this.props.onDragStart === 'function') {
       this.props.onDragStart(event);

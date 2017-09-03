@@ -19,10 +19,18 @@ var style = {
 var FileDragAndDrop = (function (_React$Component) {
   _inherits(FileDragAndDrop, _React$Component);
 
-  function FileDragAndDrop() {
+  function FileDragAndDrop(props) {
     _classCallCheck(this, FileDragAndDrop);
 
-    _get(Object.getPrototypeOf(FileDragAndDrop.prototype), 'constructor', this).apply(this, arguments);
+    _get(Object.getPrototypeOf(FileDragAndDrop.prototype), 'constructor', this).call(this, props);
+
+    this.handleDragStart = this.handleDragStart.bind(this);
+    this.handleDrag = this.handleDrag.bind(this);
+    this.handleDragEnter = this.handleDragEnter.bind(this);
+    this.handleDragLeave = this.handleDragLeave.bind(this);
+    this.handleDragOver = this.handleDragOver.bind(this);
+    this.handleDrop = this.handleDrop.bind(this);
+    this.handleDragEnd = this.handleDragEnd.bind(this);
   }
 
   _createClass(FileDragAndDrop, [{
